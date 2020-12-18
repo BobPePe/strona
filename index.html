@@ -1,0 +1,56 @@
+<html lang="pl-PL">
+	<head>
+			<meta name="utf-8">	 <title> Egzamin </title>
+            <link rel="stylesheet" href="egzamin.css">
+        <script>
+            function zabezpieczenie() {
+         
+                while (true) {
+         
+                    let haslo = prompt("Podaj hasło", "hasło");
+                    if (haslo == "liczba") break;
+                }
+            }
+        </script>    
+    </head>        
+    
+    <body>
+        
+    <div id="top"> 
+    <a href="index.html"> <img id="banner" src="banner.png"></a>
+    </div>
+        
+    <div class="menu">
+        
+        <div id="choose">
+            <h1 id="napis"> MENU </h1>
+            <ul>
+                <li> <a id="change" href= "Opis.html"  target="1"> Opis </a>
+                <li> <a id="change" href= "Jaka.html"  target="1" onclick="zabezpieczenie()"> Jaka to liczba? </a>
+                <li> <a id="change" href= "Zakres.html "  target="1"> Liczby całkowite z zakresu </a>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div id="main">
+            
+
+            <iframe id="frame" src="zawartosc.html" frameborder="0" name="1"></iframe>
+
+
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+    </body>
+</html>

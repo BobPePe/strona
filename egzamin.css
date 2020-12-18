@@ -1,0 +1,92 @@
+body 
+{
+background-color: gray;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+/* gorna czesc strony */
+#top
+{
+border: small solid black;
+}
+
+#banner
+{
+height: 35%;
+width: 100%;
+}
+
+
+/* srodkowa czesc strony */
+.menu
+{
+float: left;
+background-color: rgba(0, 0, 0, 0.5);
+width: 40%;
+height: 60%;
+vertical-align: middle;
+border-radius: 20px;
+margin-top: 15px;
+}
+
+.content
+{
+float: left;
+background-color: lightblue;
+width: 60%;
+height: 60%;
+border-radius: 20px;
+margin-top: 15px;
+}
+
+#choose
+{
+margin: 30px;
+}
+
+#napis
+{
+margin-left: 120px;
+}
+
+#main
+{
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: 1cm;
+}
+
+#frame
+{
+height: 90%;
+width: 90%;
+margin-top: 25px;
+}
+
+
+
+/* linki */
+li a
+{
+font-size: large;
+display:block;
+text-decoration:none;
+color:#000;
+background: gray;
+padding:8px 20px;
+width:  50%;
+margin: 1px;
+}
+
+#change:hover
+{
+background-color: rgb(0, 162, 232);
+transition-duration: 0.5s;
+border: 2px solid white;
+}
+
+ul 
+{
+list-style:none;
+}
